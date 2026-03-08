@@ -1,0 +1,62 @@
+{
+    "beschreibung": "Identifizierte DC-Motor-Parameter aus Labor 2",
+    "parameter": {
+        "R": 1.0175506469259215,
+        "L": 0.00841216443670031,
+        "K_e": 0.10053494123147809,
+        "K_t": 0.11887778443499332,
+        "J": 0.005897297092964543,
+        "b": 0.0010753427850962076
+    },
+    "uebertragungsfunktion": {
+        "zaehler": [
+            0.11887778443499332
+        ],
+        "nenner": [
+            4.960903287809245e-05,
+            0.0060098444323944756,
+            0.013045586818542142
+        ]
+    },
+    "identifikation_info": {
+        "methode": "Nichtlineare Least-Squares (scipy.optimize.least_squares, TRF)",
+        "anzahl_messpunkte": 500,
+        "rausch_niveau_prozent": 5.0,
+        "residuennorm": 115.5616016714838,
+        "konvergiert": true
+    },
+    "parametervergleich": {
+        "R": {
+            "nominal": 1.0,
+            "identifiziert": 1.0175506469259215,
+            "fehler_prozent": 1.7550646925921454
+        },
+        "L": {
+            "nominal": 0.01,
+            "identifiziert": 0.00841216443670031,
+            "fehler_prozent": 15.878355632996907
+        },
+        "K_e": {
+            "nominal": 0.1,
+            "identifiziert": 0.10053494123147809,
+            "fehler_prozent": 0.5349412314780838
+        },
+        "K_t": {
+            "nominal": 0.1,
+            "identifiziert": 0.11887778443499332,
+            "fehler_prozent": 18.877784434993313
+        },
+        "J": {
+            "nominal": 0.005,
+            "identifiziert": 0.005897297092964543,
+            "fehler_prozent": 17.945941859290865
+        },
+        "b": {
+            "nominal": 0.001,
+            "identifiziert": 0.0010753427850962076,
+            "fehler_prozent": 7.53427850962076
+        }
+    },
+    "sprung_amplitude_V": 12.0,
+    "labor1_referenz": "/home/runner/work/Modelling-and-control-of-mechatronic-systems/Modelling-and-control-of-mechatronic-systems/Labor2/../Labor1/data/modell_parameter.json"
+}

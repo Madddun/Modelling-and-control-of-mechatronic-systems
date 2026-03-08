@@ -1,0 +1,22 @@
+{
+    "beschreibung": "PID-Reglerentwurf basierend auf Labor 1 und Labor 2",
+    "regler_parameter": {
+        "typ": "PID",
+        "methode": "Ziegler-Nichols (Wendetangente)",
+        "Kp": 9.06572582035222,
+        "Ti": 0.014170215447115171,
+        "Td": 0.003542553861778793
+    },
+    "regelguete": {
+        "ueberschwingen_prozent": 87.45759067711958,
+        "einregelzeit_s": 0.32505417569594935,
+        "stationaere_abweichung": 0.0,
+        "anstiegszeit_s": 0.2230371728621437,
+        "stationaerer_ausgangswert": 100.0
+    },
+    "sollwert_rad_s": 100.0,
+    "quellen": {
+        "labor1": "/home/runner/work/Modelling-and-control-of-mechatronic-systems/Modelling-and-control-of-mechatronic-systems/Labor3/../Labor1/data/modell_parameter.json",
+        "labor2": "/home/runner/work/Modelling-and-control-of-mechatronic-systems/Modelling-and-control-of-mechatronic-systems/Labor3/../Labor2/data/identifizierte_parameter.json"
+    }
+}

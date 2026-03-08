@@ -1,0 +1,58 @@
+{
+    "beschreibung": "Nominale DC-Motor-Parameter aus Labor 1",
+    "parameter": {
+        "R": 1.0,
+        "L": 0.01,
+        "K_e": 0.1,
+        "K_t": 0.1,
+        "J": 0.005,
+        "b": 0.001
+    },
+    "uebertragungsfunktion": {
+        "zaehler": [
+            0.1
+        ],
+        "nenner": [
+            5e-05,
+            0.00501,
+            0.011000000000000003
+        ]
+    },
+    "zustandsraum": {
+        "A": [
+            [
+                -100.0,
+                -10.0
+            ],
+            [
+                20.0,
+                -0.2
+            ]
+        ],
+        "B": [
+            [
+                100.0
+            ],
+            [
+                0.0
+            ]
+        ],
+        "C": [
+            [
+                0.0,
+                1.0
+            ]
+        ],
+        "D": [
+            [
+                0.0
+            ]
+        ]
+    },
+    "sprungantwort_kennwerte": {
+        "omega_stationaer": 107.84049469626103,
+        "t_anstieg_s": 0.934934934934935,
+        "t_einregel_s": 1.5555555555555556
+    },
+    "sprung_amplitude_V": 12.0
+}

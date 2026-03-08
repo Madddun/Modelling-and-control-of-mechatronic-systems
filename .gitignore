@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Generated plot files (re-created by running the scripts)
+Labor1/data/*.png
+Labor2/data/*.png
+Labor3/data/*.png
